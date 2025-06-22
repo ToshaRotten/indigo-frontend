@@ -6,20 +6,20 @@ const ServerAuthAddress = getServerAddress() + "/auth/";
 
 const userMock = {
   id: 0,
-  first_name: "test",
-  last_name: "test",
-  third_name: "test",
+  first_name: "admin",
+  last_name: "admin",
+  third_name: "admin",
   email: "test@test.ru",
   age: "0",
-  role_id: 0,
+  role_id: 1,
 };
 
 export function getUser() {
-  // if (!user) {
-  //   return userMock;
-  // } else {
-  return user;
-  // }
+  if (!user) {
+    return userMock;
+  } else {
+    return user;
+  }
 }
 
 let user = {};

@@ -38,8 +38,7 @@ export default function Login() {
 
     if (doAuth(username, password)) {
       setLoading(false);
-      setTimeout(5000);
-      push(SystemRoute.privateRoute());
+      setTimeout(push(SystemRoute.privateRoute()), 5000000);
     }
   };
 
