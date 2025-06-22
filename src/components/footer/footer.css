@@ -1,0 +1,29 @@
+.footer {
+  justify-content: space-around;
+  background-color: #86be20;
+  width: 100vw;
+  height: 15vh;
+}
+
+.footer .left-container {
+  float: left;
+  width: 500px;
+  margin-top: 70px;
+}
+
+.footer .left-container .logos img {
+  float: left;
+  margin-left: 40px;
+}
+
+.footer .left-container .phone {
+  color: white;
+  float: right;
+  font-size: 24px;
+}
+
+.footer .right-container {
+  position: absolute;
+  right: 40px;
+  float: right;
+}
