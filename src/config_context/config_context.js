@@ -18,6 +18,6 @@ export const ConfigProvider = ({ children, config }) => {
 
 export const getServerAddress = () => {
 	// load .env file, parse the values, and return the server address
-	const serverAddress = "http://localhost:3000";
+	const serverAddress = "http://195.133.1.151:3000";
 	return serverAddress;
 };
